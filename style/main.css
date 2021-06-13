@@ -1,0 +1,188 @@
+:root{
+    --preta: #141414;
+}
+
+/*formatacao padrao navegador*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: #dfdfdf;
+    scroll-behavior: smooth;
+}
+
+/*elementos base*/
+body{
+  background: var(--preta);
+  font: 'Helvetica Neue';
+  color: white;
+  background: url('/img/imgback.jpg') no-repeat top;
+  background-size: 100% 40%;
+  background-color: #000000;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color:red;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+header nav a:hover{
+    color: #FFF; 
+}
+
+/*menu secundario*/
+.container-icons{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-icons{
+    margin-right: 15px;
+}
+
+.nav-icons img{ /*icone perfil*/
+    width: 40px;
+    margin: 15px;
+    margin-right: 10px;
+}
+
+.nav-icons a i{
+    font-size: 25px;
+    color: white;
+}
+
+.nav-icons a i:hover{
+    color: #ccc;
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size: 18px;
+    
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin-block-end: 5px ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 12px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 80%;
+}
+
+/*elementos botoes*/
+.botao1{
+    background-color: rgba(109,109,110,0.7);
+    border:none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-block-start: 10%;
+    cursor: pointer;
+    transition: .3s ease all;
+    margin-left: 15px;
+}
+
+main .botao1:hover{
+    background-color: rgba(255,255,255,0.5);
+}
+
+.botao2{
+    background-color: rgba(109,109,110,0.7);
+    border:none;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-block-start: 10%;
+    cursor: pointer;
+    transition: .3s ease all;
+    min-width: 100px;
+    margin-left: 15px;
+}
+
+main .botao2:hover{
+    background-color: rgba(255,255,255,0.5);
+}
+
+main button i .texto-botao{
+    margin-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+/*elementos carrosel*/
+.box-filme{
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    margin-block-end: 5px;
+    border-radius: 10px;
+}
+
+.carrosel-filmes{
+    display: 5px;
+    font-size: 15px;
+}
+
+h2 {
+    padding: 2px;
+    margin-left: 10px;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+    margin-top: 5px;
+}
+
+.desco {
+    direction: none;
+    text-decoration:none; 
+    color:red;   
+}
+
+.fab {
+    padding: 0px;
+    color:red;
+}
