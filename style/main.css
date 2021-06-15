@@ -16,7 +16,7 @@ body{
   background: var(--preta);
   font: 'Helvetica Neue';
   color: white;
-  background: url('/img/imgback.jpg') no-repeat top;
+  background: url('/img/festival.gif') no-repeat top;
   background-size: 100% 40%;
   background-color: #000000;
 }
