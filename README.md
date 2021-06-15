@@ -10,3 +10,4 @@ Como diferencial apresento a vocês a minha versão, o **FLIX FESTIVAL** inspira
 
 Ainda estarei acrescentando mais elementos nesse repositório em breve. 
 
+![image](https://user-images.githubusercontent.com/84195975/122094509-a2a5a600-cde2-11eb-8174-5a40cc0da0b7.png)
